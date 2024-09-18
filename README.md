@@ -89,29 +89,28 @@ The dataset consists of the following:
 **Key Metrics and Formulas:**
 
 1. **Total Sales**: The sum of sales revenue for the selected period.
-   - Formula: SUM(Transactions[Sales])
+   - SUM(Transactions[Sales])
 
 2. **Total Orders**: The total number of distinct orders placed.
-   - Formula: DISTINCTCOUNT(Transactions[transaction_id])
+   - DISTINCTCOUNT(Transactions[transaction_id])
 
 3. **Total Quantity Sold**: The total number of units sold.
-   - Formula: SUM(Transactions[Transaction_Qty])
+   - SUM(Transactions[Transaction_Qty])
 
 4. **Average Sales**: The average daily sales amount.
-   - Formula: AVERAGEX(ALLSELECTED(Transactions[transaction_date]), 'Date Table'[Total Sales])
+   - AVERAGEX(ALLSELECTED(Transactions[transaction_date]), 'Date Table'[Total Sales])
 
 5. **Previous Month Sales**: Sales in the previous month.
-   - Formula: CALCULATE('Transactions'[CM], DATEADD('Date Table'[Date], -1, MONTH))
+   - CALCULATE('Transactions'[CM], DATEADD('Date Table'[Date], -1, MONTH))
 
 6. **Previous Month Orders**: Number of orders in the previous month.
-   - Formula: CALCULATE('Transactions'[CM Orders], DATEADD('Date Table'[Date], -1, MONTH))
+   - CALCULATE('Transactions'[CM Orders], DATEADD('Date Table'[Date], -1, MONTH))
 
 7. **Previous Month Quantity Sold**: Quantity sold in the previous month.
-   - Formula: CALCULATE('Transactions'[CM Qty], DATEADD('Date Table'[Date], -1, MONTH))
+   - CALCULATE('Transactions'[CM Qty], DATEADD('Date Table'[Date], -1, MONTH))
 
 8. **Current Month Sales**: Sales for the selected month.
-   - Formula:
-     DAX
+   - DAX
      VAR selected_month = SELECTEDVALUE('Date Table'[Month])
      RETURN TOTALMTD(
        CALCULATE(SUM(Transactions[Sales]), 'Date Table'[Month] = selected_month),
@@ -120,7 +119,7 @@ The dataset consists of the following:
      
 
 9. **MoM Growth and Difference (Sales)**: Measure for month-over-month growth and sales difference.
-   - Formula:
+   - 
      DAX
      VAR month_diff = 'Transactions'[CM] - 'Date Table'[PM]
      VAR MOM = ([CM] - [PM]) / [PM]
