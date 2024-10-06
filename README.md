@@ -135,7 +135,7 @@ The dataset consists of the following:
 https://github.com/user-attachments/assets/82ddf263-4026-4875-b754-b7196c77e3f6
 
 <br>
-Check Out the Live Dashboard [here](https://app.powerbi.com/links/usUAZjSUc1?ctid=3cc54fba-ae76-46dc-9e2d-7250294bedc4&pbi_source=linkShare)
+Check Out the Live Dashboard [here](https://app.powerbi.com/links/usUAZjSUc1?ctid=3cc54fba-ae76-46dc-9e2d-7250294bedc4&pbi_source=linkShare).
 
 
 ## 6. ACT
