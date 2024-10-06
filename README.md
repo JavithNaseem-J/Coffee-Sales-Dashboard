@@ -131,14 +131,23 @@ The dataset consists of the following:
 10. **MoM Growth and Difference (Orders)** and **MoM Growth and Difference (Quantity Sold)** follow the same structure, but applied to respective measures.
 
 ## 5. SHARE
-![image](https://github.com/user-attachments/assets/d48abc98-2f86-4e41-9b3c-3e9af0e28bca)
-![image](https://github.com/user-attachments/assets/f346a367-4bc5-4bca-af5b-e823b28b6dd4)
 
+https://github.com/user-attachments/assets/82ddf263-4026-4875-b754-b7196c77e3f6
 
 <br>
-Check Out the Live DashBoard [Link](https://app.powerbi.com/links/usUAZjSUc1?ctid=3cc54fba-ae76-46dc-9e2d-7250294bedc4&pbi_source=linkShare)
+Check Out the Live DashBoard [Link] (https://app.powerbi.com/links/usUAZjSUc1?ctid=3cc54fba-ae76-46dc-9e2d-7250294bedc4&pbi_source=linkShare)
 
 ## 6. ACT
 
 **Recommendations**
+Target Weekends for Sales Growth:
+The analysis shows that weekends contribute 33% of revenue (April) compared to 26% in March, indicating that weekend sales are growing. To capitalize on this, consider implementing weekend promotions or special deals to drive even more foot traffic and increase weekend revenue further.
 
+Optimize Product Offerings:
+Coffee is the best-selling product category, but Bakery items saw the highest growth (+31.7% in March and +20% in April). Promoting bakery items with coffee as a combo deal could further boost sales in this growing category. Additionally, increasing focus on hot beverages like Barista Espresso and Brewed Chai Tea, which are also growing, can help drive more profits.
+
+Expand Sales in Lower Performing Store Locations:
+While Hell’s Kitchen and Astoria stores are performing well, the Lower Manhattan store has the lowest revenue among the three. Implement targeted marketing campaigns or offer location-based deals to improve sales in that region.
+
+Maximize Peak Sales Hours:
+heatmap shows that 12 PM to 4 PM is the busiest time for sales. Capitalize on this by offering promotions or loyalty programs during slower hours (such as early morning or after 5 PM) to encourage more traffic throughout the day and balance sales distribution.
