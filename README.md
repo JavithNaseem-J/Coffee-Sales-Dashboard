@@ -140,6 +140,7 @@ Check Out the Live DashBoard [Link] (https://app.powerbi.com/links/usUAZjSUc1?ct
 ## 6. ACT
 
 **Recommendations**
+
 Target Weekends for Sales Growth:
 The analysis shows that weekends contribute 33% of revenue (April) compared to 26% in March, indicating that weekend sales are growing. To capitalize on this, consider implementing weekend promotions or special deals to drive even more foot traffic and increase weekend revenue further.
 
