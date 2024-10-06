@@ -131,7 +131,8 @@ The dataset consists of the following:
 10. **MoM Growth and Difference (Orders)** and **MoM Growth and Difference (Quantity Sold)** follow the same structure, but applied to respective measures.
 
 ## 5. SHARE
-![Screenshot 2024-09-08 004850](https://github.com/user-attachments/assets/b9ed93e6-98c4-4e43-8490-c54bac125581)
+![image](https://github.com/user-attachments/assets/d48abc98-2f86-4e41-9b3c-3e9af0e28bca)
+
 <br>
 Check Out the Live DashBoard [Link](https://app.powerbi.com/links/usUAZjSUc1?ctid=3cc54fba-ae76-46dc-9e2d-7250294bedc4&pbi_source=linkShare)
 
