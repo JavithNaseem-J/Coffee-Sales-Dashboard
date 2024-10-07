@@ -118,18 +118,6 @@ The dataset consists of the following:
      )
      
 
-9. **MoM Growth and Difference (Sales)**: Measure for month-over-month growth and sales difference.
-   - 
-     DAX
-     VAR month_diff = 'Transactions'[CM] - 'Date Table'[PM]
-     VAR MOM = ([CM] - [PM]) / [PM]
-     VAR _sign = IF(month_diff > 0, "+", "")
-     VAR sign_trend = IF(month_diff > 0, "▲", "▼")
-     RETURN _sign & FORMAT(MOM, "#0.0%") & " " & sign_trend & " | " & _sign & FORMAT(month_diff / 1000, "#0.0K") & " VS LM"
-     
-
-10. **MoM Growth and Difference (Orders)** and **MoM Growth and Difference (Quantity Sold)** follow the same structure, but applied to respective measures.
-
 ## 5. SHARE
 
 https://github.com/user-attachments/assets/82ddf263-4026-4875-b754-b7196c77e3f6
